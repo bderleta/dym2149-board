@@ -13,7 +13,7 @@ An application of ATMega32 in PDIP package capable of driving two of YM2149 PSG 
 - Headers for both I/O ports of each PSG
 - 32768 Hz secondary oscillator for CPU Timer2
 - Requires DIP8/DIP14 CXO for clocking YM chips
-- Revision 1a design features separate mixer board to enable developing various output stages (different chip/channel assignments, active opamp stage, etc)
+- Revision 1a design features separate [mixer board](https://github.com/bderleta/dym2149-oric-mixer) to enable developing various output stages (different chip/channel assignments, active opamp stage, etc)
 
 ![Rev 1a board render](/ym2149.png)
 
