@@ -16,3 +16,5 @@ An application of ATMega32 in PDIP package capable of driving two of YM2149 PSG 
 - Revision 1a design features separate mixer board to enable developing various output stages (different chip/channel assignments, active opamp stage, etc)
 
 ![Rev 1a board render](/ym2149.png)
+
+![Rev 1a board render](/ym2149-top.png)
