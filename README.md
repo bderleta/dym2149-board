@@ -1,7 +1,7 @@
 # dym2149-board
 Dual YM2149 synth board design
 
-An application of ATMega32 in PDIP package capable of driving two of YM2149 PSG chips. Reference firmware is just passing packets to selected PSG, but possibilities are very wide.
+An application of ATMega32 in PDIP package capable of driving two of YM2149 PSG chips. [Reference firmware](https://github.com/bderleta/dym2149-firmware-ph) is just passing packets to selected PSG, but possibilities are very wide.
 
 # Features
 
