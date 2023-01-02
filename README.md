@@ -6,7 +6,7 @@ An application of ATMega32 8-bit MCU in PDIP package capable of driving two of Y
 # Revision 2 changes
 
 -  U595_SRCLR and U595_RCLK are swapped, to put RCLK to pin OC0, allowing to strobe RCLK pin from Timer0 compare output. This way the onboard shift register can be driven fully asynchronously, as SRCLK and SER are driven by SPI peripheral. Attention must be paid when SRAM/flash is used in the application.
-- YM1_BC1 and YM1_SEL are swapped, to put YM1_SEL to pin OC1B, allowing to switch YM1 ~{SEL} pin from Timer1 compare output. YM2_~{SEL} is already on OC1A in both revisions. As ~{SEL} pin divides internal PSG clock by 2, in theory it should also divide an output frequency by 2, leading to sound an octave lower than before, although it has to be tested if any interesting effects can be obtained this way.
+- YM1_BC1 and YM1_SEL are swapped, to put YM1_SEL to pin OC1B, allowing to switch YM1 ~{SEL}~ pin from Timer1 compare output. YM2_~{SEL}~ is already on OC1A in both revisions. As ~{SEL}~ pin divides internal PSG clock by 2, in theory it should also divide an output frequency by 2, leading to sound an octave lower than before, although it has to be tested if any interesting effects can be obtained this way.
 - Placement of I2C and UART ports has been slightly changed.
 
 # Features
