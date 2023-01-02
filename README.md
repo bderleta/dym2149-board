@@ -1,6 +1,8 @@
 # dym2149-board
 Dual YM2149 synth board design using retro technology (THT elements, DIP packages)
 
+![Rev 2 board render](/assets/ym2149-front.png)
+
 An application of ATMega32 8-bit MCU in PDIP package capable of driving two of YM2149 PSG chips. [Reference firmware](https://github.com/bderleta/dym2149-firmware-ph) is just passing packets to selected PSG, but possibilities are very wide.
 
 # Revision 2 changes
@@ -21,6 +23,4 @@ An application of ATMega32 8-bit MCU in PDIP package capable of driving two of Y
 - Requires DIP8/DIP14 CXO for clocking YM chips
 - Revision 1a/2 design features separate [mixer board](https://github.com/bderleta/dym2149-oric-mixer) to enable developing various output stages (different chip/channel assignments, active opamp stage, etc)
 
-![Rev 1a board render](/ym2149.png)
-
-![Rev 1a board render](/ym2149-top.png)
+![Rev 2 board render](/assets/ym2149-top.png)
